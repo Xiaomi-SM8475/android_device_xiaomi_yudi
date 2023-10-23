@@ -1,0 +1,72 @@
+# Device proprietary files - from Xiaomi Pad 6 Max 14 MIUI V14.0.6.0.TMHCNXM package, unless pinned
+
+# Audio (Configs)
+vendor/etc/audio/sku_cape/audio_effects.xml
+vendor/etc/audio/sku_cape/mixer_paths_overlay_dynamic.xml
+vendor/etc/audio/sku_cape/mixer_paths_overlay_static.xml
+vendor/etc/audio/sku_cape/mixer_paths_waipio_cdp.xml
+vendor/etc/audio/sku_cape/mixer_paths_waipio_mtp.xml
+vendor/etc/audio/sku_cape/mixer_paths_waipio_qrd.xml
+vendor/etc/audio/sku_cape/resourcemanager_upd.xml
+vendor/etc/audio/sku_cape/resourcemanager_waipio_cdp.xml
+vendor/etc/audio/sku_cape/resourcemanager_waipio_mtp.xml
+vendor/etc/audio/sku_cape/resourcemanager_waipio_qrd.xml
+vendor/etc/audio_cloud_control_white_list.xml
+vendor/etc/backend_conf.xml
+vendor/etc/bluetooth_qti_hearing_aid_audio_policy_configuration.xml
+vendor/etc/card-defs.xml
+vendor/etc/microphone_characteristics.xml
+vendor/etc/usecaseKvManager.xml
+
+# Audio (Firmware)
+vendor/firmware/BLH-cs35l43-dsp1-spk-prot.bin
+vendor/firmware/BLL-cs35l43-dsp1-spk-prot.bin
+vendor/firmware/BRH-cs35l43-dsp1-spk-prot.bin
+vendor/firmware/BRL-cs35l43-dsp1-spk-prot.bin
+vendor/firmware/TLH-cs35l43-dsp1-spk-prot.bin
+vendor/firmware/TLL-cs35l43-dsp1-spk-prot.bin
+vendor/firmware/TRH-cs35l43-dsp1-spk-prot.bin
+vendor/firmware/TRL-cs35l43-dsp1-spk-prot.bin
+vendor/firmware/cs35l43-dsp1-spk-prot.wmfw
+
+# Camera
+vendor/etc/camera/yudi_enhance_motiontuning.xml
+vendor/etc/camera/yudi_motiontuning.xml
+vendor/lib64/camera/com.qti.actuator.yudi_qtech_s5kjn1_gt9764_wide_i_actuator.so
+vendor/lib64/camera/com.qti.eeprom.yudi_aac_imx596_p24c64f_front_i_eeprom.so
+vendor/lib64/camera/com.qti.eeprom.yudi_ofilm_sc202cs_depth_i_eeprom.so
+vendor/lib64/camera/com.qti.eeprom.yudi_qtech_s5kjn1_gt24p128e_wide_i_eeprom.so
+vendor/lib64/camera/com.qti.sensor.yudi_aac_imx596_front_i.so
+vendor/lib64/camera/com.qti.sensor.yudi_ofilm_sc202cs_depth_i.so
+vendor/lib64/camera/com.qti.sensor.yudi_qtech_s5kjn1_wide_i.so
+vendor/lib64/camera/com.qti.sensormodule.yudi_aac_imx596_front_i.bin
+vendor/lib64/camera/com.qti.sensormodule.yudi_ofilm_sc202cs_depth_i.bin
+vendor/lib64/camera/com.qti.sensormodule.yudi_qtech_s5kjn1_wide_i.bin
+vendor/lib64/camera/com.qti.tuned.default.bin
+vendor/lib64/camera/com.qti.tuned.yudi_aac_imx596_front.bin
+vendor/lib64/camera/com.qti.tuned.yudi_ofilm_sc202cs_depth.bin
+vendor/lib64/camera/com.qti.tuned.yudi_qtech_s5kjn1_wide.bin
+vendor/lib64/libSnpeHtpV73Stub.so
+vendor/lib64/libhta_hexagon_runtime_snpe.so
+
+# Display (Calibration)
+vendor/etc/display/qdcm_calib_data_xiaomi_m80_42_02_0a_video_mode_dual_dsi_dphy_panel.json
+
+# Fingerprint
+vendor/lib64/hw/fingerprint.goodix.so
+vendor/lib64/libgf_ca.so
+vendor/lib64/libgf_hal.so
+vendor/lib64/libgoodixhwfingerprint.so
+vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
+vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
+
+# Sensors (Configs)
+vendor/etc/sensors/config/ak991x_dri_0.json
+vendor/etc/sensors/config/sm8450_ak991x_0.json
+vendor/etc/sensors/config/sm8450_vl53l5_0.json
+vendor/etc/sensors/config/sns_collision_detection.json
+vendor/etc/sensors/config/sns_oem_hall.json
+
+# Touch (Firmware)
+vendor/firmware/novatek_nt36532_m80_fw_csot.bin
+vendor/firmware/novatek_nt36532_m80_mp_csot.bin
