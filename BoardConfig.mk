@@ -8,6 +8,9 @@ include device/xiaomi/liuqin/BoardConfig.mk
 
 DEVICE_PATH := device/xiaomi/yudi
 
+# Diaplay
+TARGET_SCREEN_DENSITY := 360
+
 # OTA
 TARGET_OTA_ASSERT_DEVICE := yudi
 
