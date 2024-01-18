@@ -21,3 +21,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/Vendor_0022_Product_4d80.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/Vendor_0022_Product_4d80.idc \
     $(LOCAL_PATH)/configs/idc/Vendor_2717_Product_3802.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/Vendor_2717_Product_3802.idc
+
+# Overlays
+PRODUCT_PACKAGES += \
+    YudiFrameworks \
+    YudiSettingsProvider
