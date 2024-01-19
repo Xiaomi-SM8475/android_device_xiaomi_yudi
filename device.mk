@@ -6,6 +6,9 @@
 
 $(call inherit-product, device/xiaomi/liuqin/device.mk)
 
+# Get non-open-source specific aspects
+$(call inherit-product, vendor/xiaomi/yudi/yudi-vendor.mk)
+
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     device/xiaomi/yudi
