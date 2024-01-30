@@ -1,5 +1,17 @@
 # Device proprietary files - from Xiaomi Pad 6 Max 14 MIUI V14.0.6.0.TMHCNXM package, unless pinned
 
+# Audio (AGM)
+vendor/bin/agmcap
+vendor/bin/agmcompressplay
+vendor/bin/agmplay
+vendor/lib64/libagm.so
+vendor/lib64/libagm_compress_plugin.so
+vendor/lib64/libagm_mixer_plugin.so
+vendor/lib64/libagm_pcm_plugin.so
+vendor/lib64/libagmclient.so
+vendor/lib64/libagmdevice.so
+vendor/lib64/libagmmixer.so
+
 # Audio (Configs)
 vendor/etc/audio/sku_cape/audio_effects.xml
 vendor/etc/audio/sku_cape/mixer_paths_overlay_dynamic.xml
