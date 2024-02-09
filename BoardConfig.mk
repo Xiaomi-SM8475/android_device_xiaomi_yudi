@@ -21,3 +21,6 @@ BOARD_QTI_DYNAMIC_PARTITIONS_SIZE := 11806965760
 # Properties
 TARGET_ODM_PROP += $(VARIANT_PATH)/configs/properties/odm.prop
 TARGET_VENDOR_PROP += $(VARIANT_PATH)/configs/properties/vendor.prop
+
+# Recovery
+TARGET_RECOVERY_DEFAULT_ROTATION := ROTATION_NONE
